@@ -7,6 +7,7 @@ config t
    no logging console
    no ip domain-lookup
    line console 0
+	logging synchronous
      password pass
      login
      exec-timeout 0 0
@@ -671,4 +672,5 @@ exit
           
 sip-ua
 sip-server ipv4:192.168.k.1
+
 
